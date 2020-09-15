@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title> MY RESUME</title>
+  </head>
+ <body>
+     <h1> Personal Profile:</h1>
+     <p><h3> Name </h3>         o: G.Sai Hemanth Kumar
+     <h3> Address </h3>         : D.No:-4-1197,Ganesh nagar,near Raja hotel, Kalyandurgam Bypass road, Anantapur
+     <h3> Contact no</h3>       : 6305514838
+     <h3>E-mail Address </h3>   : saihemath2000@gmail.com
+     <h3>Date of Birth </h3>    : 23rd september 2000
+     <h3>Birth Place </h3>      : Madanapalle , chittor district
+     <h3> Hobbies </h3>         : Playing games, reading books, watching tv, gardening ,Writing daily blogger
+     <h3>Gender</h3>            : Male
+     <h3> Nationality </h3>     : Indian
+     <h3> Languages known </h3> : Hindi, Telugu , English</p>
+     <h3>Goals</h3>             : Youtuber,Enterprenuer,Independent
+     
+     <h1>Objective:</h1>
+      <p> I'm a student who is aiming for the position,at which i can establish my own startup company. Wants to be an enterprenuer,at present with no job experience</p>
+     
+     <h1> Qualifications</h1>
+     <h3> Academic Qualifications:</h3>
+     <table>
+       <tbody>
+          <tr> <th>s.no</th> <th>Name of degree</th> <th> Name of the institute</th> <th>Place</th> <th>Year</th> </tr>
+          <tr> <td> 1</td> <td>Btech</td> <td>Jawaharlal Nehru Technological University College of Engineering</td> <td> Anantapur</td> <td> 2018-2022</td> </tr>
+          <tr>  <td> 1</td> <td>Btech</td> <td>Jawaharlal Nehru Technological University College of Engineering</td> <td> Anantapur</td> <td> 2018-2022</td> </tr>
+          <tr> <td> 1</td> <td>Btech</td> <td>Jawaharlal Nehru Technological University College of Engineering</td> <td> Anantapur</td> <td> 2018-2022</td> </tr>
+       </tbody>
+     </table>
+     
+     <h3> Technical Qualifications</h3>
+       <ul>
+         <li> Web               : Html,Css,JS</li>
+         <li> Programming skills: c,Java, Python</li>
+         <li> Writing           : Wordpress,blogger
+       </ul>
+       
+     <p> I hereby conclude that the above deatils are not fake, can take legal actions if find any, thank you.</p>
+  </body>   
+</html>
