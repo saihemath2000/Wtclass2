@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+<title>Penguin Story</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="pen.css" rel="stylesheet" type="text/css"/>
+</head>
+ <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="index.php">Penguin</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#cast"><span class="glyphicon glyphicon-user"></span>cast</a></li>
+                    <li><a href="#story">Story</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="image">
+    </div>
+    <div id="cast">
+        <h2> <strong>Cast:</strong></h2>
+        <div class="thumbnail">
+            <img src="https://www.filmibeat.com/img/popcorn/profile_photos/keerthi-suresh-20180525160750-34164.jpg" width="200px" height="200px">
+            <h3>
+                "KeerthiSuresh"
+             </br>
+                "Actress"
+            </h3>
+        </div>
+        <div class="thumbnail">
+            <img src="https://www.filmibeat.com/img/150x203/popcorn/profile_photos/santhosh-narayanan-20190520105403-27626.jpg" width="200px" height="200px">
+            <h3>
+                "Santhosh Narayan"
+             </br>
+                "Music Director"
+            </h3>
+        </div>
+        <div class="thumbnail">
+            <img src="data:image/jpeg;base64,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" width="200px" height="200px">
+             <h3>
+                 "Eshwar Karthic"
+            </br>
+                " Director"
+            </h3>
+        </div>  
+    </div>
+     <div id="story">
+         <p style="font-style: normal;">
+            <strong>Penguin Movie Synopsis:</strong> A pregnant woman goes in search of her first child, who has been missing for six years.</br>
+            <strong> Penguin Movie Story:</strong></br>
+             In the opening scene of Penguin, a kid walks towards a statue in the woods even as his pet cautions him with his barks. As he nears the imposing statue, a person wearing a Charlie Chaplin mask steps from behind it, and in one swift move, slashes the kid. The murderer then picks up the body and walks into a lake, and for a few seconds all that we see is the striking visual of a yellow umbrella submerging into a grey lake.
+            We are then introduced to Rhythm (Keerthy Suresh), a pregnant woman, still carrying the guilt of letting down her son, Ajay, who has been missing for six years. The incident has reshaped her life, destroying her marriage to Raghu (Linga), but also leading her to her present husband Gautham (Madhampatty Rangaraj). Everyone, including the police, believes the boy to be dead, but Rhythm will not hear anything of it. On a whim, and against the advice of her doctor, she goes to the lake where the boy went missing, and by a quirk of fate, she manages to find Ajay (Master Advaith) even while trying to avoid a masked killer. 
+             From then she starts cares his son by arranging requirements for him, but she feels that someone is again trying to kidnap her son with a charlie chaplin mask on his face.Even she tries to ask her son about the kidnapper,but his son is unable to talk.
+             On one day when Rthym is sleeping , the kidnapper again comes to take off her son and she instinctively tries to catch him ,but he escapes.With the help of doctor she tries to recover her son.
+             But a dog which lives with Rhythm smells something odd and moves to one haunted house ,Rhythm follows it and she surprised to know that docotr lives in that house.She cleverly misguides doctor and she goes into a room which is full of blood and she finds  a girl who is alive and blood around the room
+             she quickly tries to escape with both of the children but the doctor catches0 her.However she escqpes and inform to cops.But she is confused why the doctor wants to kidnap here son.Both Rhythm and doctor plays a game under police custody and from it she comes to know that doctor is not the real kidnapper.
+             Then with the help of some clues she finds the kidnapper and shocks by knowing that her childhood friend is the real kidnapper. Her friend who is a pshyco hides Rhythms son and kills herself.
+             Again with the help of her dog she finds her son and saves him.
+                The climax ends with Rhythm giving birth to another one.
+                <h4>The main synopsis is about a lady who always feels jeaulosy of her friends success and turns into a pshyco and decided to ruin her friends life by kidnapping her son.</h4>
+
+
+     </div>
+    </body>
+    </html>
