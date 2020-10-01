@@ -13,14 +13,21 @@
  <body>
    <div class="panel panel-primary">
     <div class="panel-heading">Sample form</div>
-   <div class="panel-body">
-   <form action="https://jntuacea.net/wtclass/formsubmit.php" method="GET">
-    <label for="stname">enter your name:</label> <input type="text" name="stname" id="stname" required="pls display text"/>
-     </br>
-     enter your rollno:<input type="text" name="rollno"/>
-     </br>
-     <input type="submit" name="btn" value="Go"/>
-    </form>
+     <div class="panel-body">
+      <form action="https://jntuacea.net/wtclass/formsubmit.php" method="GET">
+       <div class="form-control">
+        <label for="stname">enter your name:</label> 
+          <input type="text" name="stname" id="stname" required="pls display text"/>
+       </div>
+        </br>
+        <div class="form-control">
+         <label for="rollno">
+         enter your rollno:<input type="text" name="rollno" maxlength="10"/>
+         </label>
+         </div> 
+        </br>
+      <input type="submit" name="btn" value="Go"/>
+       </form>
   <form action="https://google.co.in/search" method="get">
    Google search : <input type="text" name="q"/></br>
     <input type="submit" name="btn" value="Googlesearch"/>
