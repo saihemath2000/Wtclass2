@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+          <title>Admission</title>
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>       
+
+	</head>
+	<body>
+                <div class="container">
+                   <div class="row top_margin">
+                   <div class="col-xs-6 col-xs-offset-3">
+                    <div class="panel panel-primary">
+                    <div class="panel-heading">Admission for BTech/MTech/MBA/MCA</div>
+                   <div class="panel-body">
+		<form action="https://jntuacea.net/wtclass/formsubmit.php" method="get">
+               <div class="form-control">
+		<label for "Firstname">First Name:</label><input type="text" name="Firstname" maxlength="30" placeholder="AS PER SSC" required="required"/>
+               </div> </br> 
+               <div class="form-control">
+		<label for "lastname">Last Name:</label><input type="text" name="Last name" maxlength="20" placeholder="AS PER SSC" required="required"/>
+	       </div></br>
+                <div class="form-control">	
+		<label for "Father's name">Father's Name:</label><input type="text" name="Father's name" maxlength="30" placeholder="AS PER SSC" required="required"/>
+                </div></br>
+	       <div class="form-control"></br>
+		<label for "Mother's name">Mother's Name:</label><input type="text" name="Mother's name" maxlength="30" placeholder="AS PER SSC" required="required"/>
+               </div></br></br>  
+		
+	DOB: Day:<input type="text" name="day" pattern="[1-31]{1,2}" required="required" placeholder="1-31"/>
+
+		Month:<select name="month">
+			<option value="January">January</option>
+			<option value="February">February</option>
+			<option value="March">March</option>
+			<option value="April">April</option>
+			<option value="May">May</option>
+			<option value="June">June</option>
+			<option value="July">July</option>
+			<option value="August">August</option>
+			<option value="September">September</option>
+			<option value="October">october</option>
+			<option value="November">November</option>
+			<option value="December">December</option>
+		</select>
+		Year:<select name="Year">
+			<option value="1995">1995</option>
+			<option value="1996">1996</option>
+			<option value="1997">1997</option>
+			<option value="1998">1998</option>
+			<option value="1999">1999</option>
+			<option value="2000">2000</option>
+			<option value="2001">2001</option>
+			<option value="2002">2002</option>
+			<option value="2003">2003</option>
+		</select></br></br>
+		Type of exam:<select name="exam:">
+			<option value="EAMCET">EAMCET</option>
+			<option value="ECET">ECET</option>
+			<option value="APPGCET">APPGCET</option>
+			<option value="APICET">APICET</option>
+		</select></br></br>
+		Rank:<input type="text" name="rank" required="required" placeholder="Enter your rank"></br></br>
+ 		<input type="radio" name="graduate" value="UG"/>UnderGraduate
+		<input type="radio" name="graduate" value="PG"/>PostGraduate</br></br>
+		Btech:<select name="Course:">
+			<option value=Computer Science and Engineering">CSE</option>
+			<option value="Electronics and Communication Engineering">ECE</option>
+			<option value="Electrical and Electronics Engineering">EEE</option>
+			<option value="Mechanical Engineering">MECH</option>
+			<option value="Civil Engineering">Civil</option>
+			<option value="chemical Engineering ">CHEM</option>
+		</select>
+		Mtech:<select name="Course:">
+			<option value=Artificial Intelligence">AI</option>
+			<option value="Robotics">Robotics</option>
+			<option value="Machine Learning">ML</option>
+			<option value="Advance CAD">CAD</option>
+			<option value="Very Large Scale Integeration">VLSI</option>
+			<option value="Organic Chemistry">Organic chemistry</option>
+		</select>
+		MCA:<select name="Course:">
+			<option value=Systems management">Systems Management</option>
+			<option value="Software development">Software Development</option>
+			<option value="Networking">Networking</option>
+			<option value="Trouble shooting">Trouble shooting</option>
+		</select></br></br>
+		Email:<input type="text" name="email" placeholder="XYZ@gmail.com"/></br></br>
+		MobileNo:<input type="text" name="Mobile no." maxlength="10" pattern="[0-9]{10}"/></br></br>
+		Address:<textarea name="address" placeholder="Enter your residence" rows="8" cols="25"></textarea>
+		<center><a href="challan.html" class="btn btn-primary">Submit</a></center>
+	</form>
+   </div>
+   </div>
+   </div>
+   </div>
+  </div>
+</body>
+</html>
